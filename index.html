@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,25 +15,57 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
+
 <body>
-    <header>
+    <header class="">
 
     </header>
-    <main>
+    <main class="">
+        <section class=" max-w-screen-2xl mx-auto pl-8 pr-4 md:pl-20 md:pr-12 lg:pl-32 lg:pr-8 py-8 md:py-16 border-2">
+            <!-- Section Content -->
+            <div class="lg:flex space-y-5">
+                <div class="space-y-5 md:space-y-7 flex-1">
+                    <h1 class="text-5xl md:text-6xl font-extrabold text-[#1C1C1C]">
+                        It's good<br>
+                        tea time at The <br> 
+                        Tea House</h1>
+                    <p class="w-3/4 text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+                        Your Taste Buds.</p>
+                    <button class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white font-semibold md:font-bold py-2 px-3 md:py-4 md:px-5 rounded-lg">Explore
+                        More <i class="fa-solid fa-arrow-right text-base md:text-lg -rotate-45"></i></button>
+                </div>
+                <!-- Section Image -->
+                <div class="relative flex-1">
+                    <img class="w-full" src="./images/banner.png" alt="">
+                    <!-- Image card -->
+                     <div class="absolute flex items-center gap-4 bg-white shadow-xl px-4 py-4 md:px-7 md:py-4 rounded-lg bottom-0 left-24 md:left-48 lg:left-24">
+                        <i class="fa-solid fa-star text-2xl text-amber-600"></i>
+                        <div>
+                            <h2 class="font-bold text-2xl md:text-3xl">5.00</h2>
+                            <p class="text-gray-500">Trust Pilot Ratings</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
 
+        <section>
+            
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
